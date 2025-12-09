@@ -1,5 +1,6 @@
 
-from mnist_mlp import SimpleMLP, test_dataset
+from model import SimpleMLP
+from data import test_dataset
 import torch
 
 loaded_model = SimpleMLP(64)
